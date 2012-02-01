@@ -1,0 +1,76 @@
+html {
+    background: #ff0000;
+    color: yellow;
+    font-family: Helvetica, serif;
+}
+
+body {
+    width: 900px;
+    margin: 40px auto;
+    padding: 10px 30px;
+    background: #ff0000;
+}
+
+h1 {
+    margin: 21px 0;
+    font-size: 32px;
+}
+
+h2 {
+    margin: 19px 0;
+    font-size: 24px;
+}
+
+h3 {
+    margin: 18px 0;
+    font-size: 19px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li:last-child {
+    margin: 0;
+}
+
+#main {
+    float: left;
+    width: 600px;
+}
+
+aside {
+    float: left;
+    width: 270px;
+    margin: 0 0 0 30px;
+}
+
+/* clearfix: http://www.webtoolkit.info/css-clearfix.html */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
